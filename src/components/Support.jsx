@@ -1,7 +1,8 @@
 import React from 'react'
 import sptImg from '../Assests/supp.jpg'
-import {IoCallOutline, IoLogoCodepen, IoArrowForwardSharp, IoHardwareChipSharp} from "react-icons/io5"
-import {ArrowRightIcon, PhoneIcon} from '@heroicons/react/24/outline'
+// import { IoLogoCodepen, IoHardwareChipSharp} from "react-icons/io5"
+import {ArrowRightIcon, PhoneIcon, } from '@heroicons/react/24/outline'
+import {CpuChipIcon, CubeIcon} from '@heroicons/react/24/solid'
 const Support = () => {
   return (
    <div className='w-full h-screen mt-24'>
@@ -37,11 +38,50 @@ const Support = () => {
                </p>
        </div>
        <div className='bg-slate-100 pl-8 py-4'>
-        <p>Contact Us 
+        <p className='flex items-center text-indigo-600'>Contact Us 
           <ArrowRightIcon className='w-5 ml-2'/>
         </p>
        </div>
       </div>
+
+      <div className='bg-white rounded-xl shadow-2xl'>
+       <div className='p-8'>
+       <CpuChipIcon className='w-16 p-4 rounded-lg text-white bg-indigo-600 mt-[-4rem] '/>
+        <h3 className='font-bold text-2xl my-6'>Technical Support</h3>
+        <p className='text-gray-600 text-xl'>
+        lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Corporis aperiam, ex magnam suscipit ullam,
+              voluptatibus ducimus et ut modi sapiente molestiae
+               neque unde molestias optio saepe deserunt,
+               aliquam itaque at.
+               </p>
+       </div>
+       <div className='bg-slate-100 pl-8 py-4'>
+        <p className='flex items-center text-indigo-600'>Contact Us 
+          <ArrowRightIcon className='w-5 ml-2'/>
+        </p>
+       </div>
+      </div>
+
+      <div className='bg-white rounded-xl shadow-2xl'>
+       <div className='p-8'>
+       <CubeIcon className='w-16 p-4 rounded-lg text-white bg-indigo-600 mt-[-4rem] '/>
+        <h3 className='font-bold text-2xl my-6'>Media Inquiries</h3>
+        <p className='text-gray-600 text-xl'>
+        lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Corporis aperiam, ex magnam suscipit ullam,
+              voluptatibus ducimus et ut modi sapiente molestiae
+               neque unde molestias optio saepe deserunt,
+               aliquam itaque at.
+               </p>
+       </div>
+       <div className='bg-slate-100 pl-8 py-4'>
+        <p className='flex items-center text-indigo-600'>Contact Us 
+          <ArrowRightIcon className='w-5 ml-2'/>
+        </p>
+       </div>
+      </div>
+
     </div>
     </div>
 
